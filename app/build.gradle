@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.novaorb.ai'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.novaorb.ai'
+        minSdk 23
+        targetSdk 35
+        versionCode 11
+        versionName '11.0'
+    }
+}
